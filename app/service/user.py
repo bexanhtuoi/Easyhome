@@ -5,6 +5,7 @@ from fastapi import UploadFile, HTTPException
 import os
 import shutil
 from typing import List
+from pathlib import Path
 
 AVATAR_DIR = "static/avatars"
 
@@ -18,8 +19,8 @@ class UserCrud(CRUDRepository):
         if not user:
             raise HTTPException(status_code=404, detail="User not found")
         
-        filename = f"{user.user_id}_{file.filename}"
-        file_path = os.path.join(AVATAR_DIR, filename)
+        filename = f"{user.id}_{file.filename}"
+        file_path = str(Path(AVATAR_DIR) / filename)
         with open(file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
         

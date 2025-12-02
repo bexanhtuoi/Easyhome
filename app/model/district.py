@@ -10,5 +10,5 @@ class District(SQLModel, table=True):
     province_rel: Optional["Province"] = Relationship(back_populates="district_rel")
     users: List["User"] = Relationship(back_populates="district_rel")
     ward_rel: List["Ward"] = Relationship(back_populates="district_rel")
-    # properties: List["Property"] = Relationship(back_populates="district")
+    properties: List["Property"] = Relationship(back_populates="district")
     

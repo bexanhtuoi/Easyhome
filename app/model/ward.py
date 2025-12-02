@@ -8,4 +8,4 @@ class Ward(SQLModel, table=True):
 
     district_rel: Optional["District"] = Relationship(back_populates="ward_rel")
     users: List["User"] = Relationship(back_populates="ward_rel")
-    # properties: List["Property"] = Relationship(back_populates="ward_rel")
+    properties: List["Property"] = Relationship(back_populates="ward_rel")

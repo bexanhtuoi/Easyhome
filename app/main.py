@@ -11,6 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from app.core.config import settings
 from app.database.database import create_db_and_tables
+from app.database.init_db import init_db
 
 from contextlib import asynccontextmanager
 import os
@@ -21,6 +22,7 @@ os.makedirs("static/avatars", exist_ok=True)
 async def lifespan(app: FastAPI):
     # startup
     create_db_and_tables()
+    init_db()
     print("Database ready!")
     yield
     # shutdown
