@@ -7,4 +7,4 @@ class Province(SQLModel, table=True):
 
     district_rel: List["District"] = Relationship(back_populates="province_rel")
     users: List["User"] = Relationship(back_populates="province_rel")
-    # properties: List["Property"] = Relationship(back_populates="province")
+    properties: List["Property"] = Relationship(back_populates="province")

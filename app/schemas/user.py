@@ -17,7 +17,6 @@ class UserCreateSchema(UserBaseSchema):
 class UserUpdateSchema(BaseModel):
     full_name: Optional[str] = None
     password: Optional[str] = None
-    avatar: Optional[str] = None
     gender: Optional[GenderEnum] = None
     birthday: Optional[datetime] = None
     cccd_id: Optional[str] = None
