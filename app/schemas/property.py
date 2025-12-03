@@ -18,6 +18,9 @@ class PropertyBaseSchema(BaseModel):
     owner_phone: Optional[str] = None
     owner_zalo: Optional[str] = None
     status: Optional[str] = None
+    amenities_id: Optional[List[int]] =None
+    objects_id: Optional[List[int]] =None
+    nearby_places_id: Optional[List[str]] =None
 
     latitude: Optional[float] = None
     longitude: Optional[float] = None
@@ -25,7 +28,7 @@ class PropertyBaseSchema(BaseModel):
 
 
 class PropertyCreateSchema(PropertyBaseSchema):
-    owner_id: int
+    pass
 
 
 class PropertyUpdateSchema(PropertyBaseSchema):

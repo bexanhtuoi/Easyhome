@@ -1,13 +1,13 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlmodel import Session
 from app.database.database import get_session
-from app.model import User, Province, District, Ward
+from app.model import User
 from app.service import user_crud
 from app.schemas.user import UserCreateSchema, UserUpdateSchema, Token
 from app.api.dependencies import get_pagination_params, get_token
 from app.security import hash_password
 from app.core.config import settings
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import List
 from fastapi import UploadFile, File
 

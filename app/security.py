@@ -8,13 +8,6 @@ from typing import Union, Any, Optional
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 def hash_password(password: str) -> str:
-    print("PASSWORD TYPE:", type(password))
-    print("PASSWORD VALUE:", repr(password))
-    print("LEN(password):", len(password))
-    print("LEN(utf-8):", len(password.encode("utf-8")))
-    hashed = pwd_context.hash(password)
-    print("HASHED:", hashed)
-
     return pwd_context.hash(password)
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
