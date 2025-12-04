@@ -9,6 +9,7 @@ from app.api.routers.object import router as object_router
 from app.api.routers.nearby_place import router as nearby_place_router
 from app.api.routers.review import router as review_router
 from app.api.routers.favorite import router as favorite_router
+from app.api.routers.property_images import router as property_images_router
 
 __all__ = [
     "auth_router",
@@ -22,4 +23,5 @@ __all__ = [
     "nearby_place_router",
     "review_router",
     "favorite_router",
+    "property_images_router"
 ]

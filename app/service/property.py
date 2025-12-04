@@ -1,6 +1,6 @@
 from app.model import Property
 from app.service.base import CRUDRepository
-from typing import List, Optional, Union
+from typing import List, Optional, Union, TypeVar
 from sqlmodel import SQLModel, Session, select
 from pydantic import BaseModel
 from fastapi import HTTPException
@@ -66,7 +66,7 @@ class PropertyCrud(CRUDRepository):
         return property
 
     
-    def update_property(self, db: Session, db_obj: Property, obj_in: PropertyUpdate):
+    def update_property(self, db: Session, db_obj: Property, obj_in: BaseModel):
 
         exclude_fields = {"amenities_id", "objects_id", "nearby_places_id"}
 

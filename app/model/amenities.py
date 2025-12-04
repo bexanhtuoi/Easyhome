@@ -1,6 +1,6 @@
 from sqlmodel import SQLModel, Field, Relationship
 from typing import Optional, List
-from app.model import Property_Amenities
+from app.model.link_model import Property_Amenities
 
 
 class Amenities(SQLModel, table=True):

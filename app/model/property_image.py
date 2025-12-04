@@ -7,4 +7,4 @@ class PropertyImages(SQLModel, table=True):
     image_url: str
     is_thumbnail: bool = False
 
-    property: Property = Relationship(back_populates="images")
+    property: "Property" = Relationship(back_populates="images")

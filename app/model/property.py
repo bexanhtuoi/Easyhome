@@ -1,7 +1,7 @@
 from typing import Optional, List
 from sqlmodel import Field, SQLModel, Relationship
 from datetime import datetime
-from app.model import Property_Amenities, Property_Object, Property_Nearby_Place
+from app.model.link_model import Property_Amenities, Property_Object, Property_Nearby_Place
 
 class Property(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
@@ -27,6 +27,9 @@ class Property(SQLModel, table=True):
     update_at: datetime = Field(default_factory=datetime.utcnow)
 
     owner: "User" = Relationship(back_populates="properties")
+    province_rel: Optional["Province"] =Relationship(back_populates="properties")
+    district_rel: Optional["District"] =Relationship(back_populates="properties")
+    ward_rel: Optional["Ward"] =Relationship(back_populates="properties")
     category: Optional["Category"] = Relationship(back_populates="properties")
     images: List["PropertyImages"] = Relationship(back_populates="property")
     amenities: List["Amenities"] = Relationship(back_populates="properties", link_model=Property_Amenities)

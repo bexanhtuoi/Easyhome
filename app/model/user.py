@@ -20,7 +20,7 @@ class User(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
     full_name: str
     email: EmailStr = Field(unique=True, index=True)
-    password_hashed: str
+    password_hashed: Optional[str]
     avatar: Optional[str] = None
     gender: Optional[GenderEnum] = None
     birthday: Optional[datetime] = None

@@ -1,4 +1,4 @@
-from SQLModel import SQLModel, Field
+from sqlmodel import SQLModel, Field
 
 class Property_Amenities(SQLModel, table=True):
     property_id: int = Field(foreign_key="property.id", primary_key=True)
