@@ -2,9 +2,11 @@ from app.service.user import user_crud
 from app.service.province import province_crud
 from app.service.district import district_crud
 from app.service.ward import ward_crud
+from app.service.property import property_crud
 from app.service.category import category_crud
 from app.service.amenities import amenities_crud
 from app.service.object import object_crud
 from app.service.nearby_place import nearby_place_crud
 from app.service.review import review_crud
 from app.service.favorite import favorite_crud
+from app.service.property_images import property_images_crud

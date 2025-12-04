@@ -11,7 +11,8 @@ from app.api import (
     object_router,
     nearby_place_router,
     review_router,
-    favorite_router
+    favorite_router,
+    property_images_router
 )
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -66,3 +67,4 @@ app.include_router(object_router, prefix="/api/v1/objects", tags=["objects📦"]
 app.include_router(nearby_place_router, prefix="/api/v1/nearby-places", tags=["nearby_places🗺️"])    
 app.include_router(review_router, prefix="/api/v1/reviews", tags=["reviews⭐"])
 app.include_router(favorite_router, prefix="/api/v1/favorites", tags=["favorites❤️"])
+app.include_router(property_images_router, prefix="/api/v1/property-images", tags=["Images🖼️"])

@@ -20,7 +20,12 @@ class Settings(BaseSettings):
 
     # Server
     server_host: str = os.getenv("SERVER_HOST", "localhost")
-    server_port: int = int(os.getenv("SERVER_PORT", 8000))\
+    server_port: int = int(os.getenv("SERVER_PORT", 8000))
+
+    # Google Auth
+    google_client_id: str = os.getenv("GOOGLE_CLIENT_ID", "")
+    google_client_secret: str = os.getenv("GOOGLE_CLIENT_SECRET", "")
+    google_redirect_uri: str = os.getenv("GOOGLE_REDIRECT_URI", "http://localhost:8000/auth/google/callback")
 
     env: str = os.getenv("ENV", "dev")
 
