@@ -27,6 +27,10 @@ class Settings(BaseSettings):
     google_client_secret: str = os.getenv("GOOGLE_CLIENT_SECRET", "")
     google_redirect_uri: str = os.getenv("GOOGLE_REDIRECT_URI", "http://localhost:8000/auth/google/callback")
 
+    facebook_client_id: str = os.getenv("FACEBOOK_CLIENT_ID", "")
+    facebook_client_secret: str = os.getenv("FACEBOOK_CLIENT_SECRET", "")
+    facebook_redirect_uri: str = os.getenv("FACEBOOK_REDIRECT_URI", "")
+
     env: str = os.getenv("ENV", "dev")
 
 settings = Settings()
