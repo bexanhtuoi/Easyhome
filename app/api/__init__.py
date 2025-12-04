@@ -1,4 +1,6 @@
 from app.api.routers.auth import router as auth_router
+from app.api.routers.google_auth import router as google_auth_router
+from app.api.routers.facebook_auth import router as facebook_auth_router
 from app.api.routers.user import router as user_router
 from app.api.routers.province import router as province_router
 from app.api.routers.district import router as district_router
@@ -13,6 +15,8 @@ from app.api.routers.property_images import router as property_images_router
 
 __all__ = [
     "auth_router",
+    "google_auth_router",
+    "facebook_auth_router",
     "user_router",
     "province_router",
     "district_router",

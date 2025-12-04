@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from sqlmodel import SQLModel
 from app.api import (
     auth_router,
+    google_auth_router,
+    facebook_auth_router,
     user_router,
     province_router,
     district_router,
@@ -29,7 +31,7 @@ os.makedirs("static/avatars", exist_ok=True)
 async def lifespan(app: FastAPI):
     # startup
     create_db_and_tables()
-    init_db()
+    # init_db()
     print("Database ready!")
     yield
     # shutdown
@@ -57,6 +59,8 @@ async def root():
     return {"message": "Welcome to the EasyHome API"}
 
 app.include_router(auth_router, prefix="/api/v1/auth", tags=["auth🔐"])
+app.include_router(google_auth_router, prefix="/api/v1/auth", tags=["google_auth🔐"])
+app.include_router(facebook_auth_router, prefix="/api/v1/auth", tags=["facebook_auth🔐"])
 app.include_router(user_router, prefix="/api/v1/users", tags=["users🙍"])
 app.include_router(province_router, prefix="/api/v1/provinces", tags=["provinces🗾"])
 app.include_router(district_router, prefix="/api/v1/districts", tags=["districts🌁"])
