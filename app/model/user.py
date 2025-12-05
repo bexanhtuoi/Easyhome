@@ -31,8 +31,10 @@ class User(SQLModel, table=True):
     address: Optional[str] = None
     phone: Optional[str] = None
     zalo: Optional[str] = None
-    role: Optional[RoleEnum] = None
-    is_verified: bool = False
+    role: Optional[RoleEnum] = Field(default=RoleEnum.user)
+    super_user: bool = Field(default=False, nullable=False)
+    is_verified: bool = Field(default=False, nullable=False)
+
     create_at: datetime = Field(default_factory=datetime.utcnow)
     update_at: datetime = Field(default_factory=datetime.utcnow)
 

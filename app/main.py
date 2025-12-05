@@ -30,8 +30,8 @@ os.makedirs("static/avatars", exist_ok=True)
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # startup
-    create_db_and_tables()
-    # init_db()
+    # create_db_and_tables() nên gỡ vì đã có alembic
+    # init_db() seed dữ liệu
     print("Database ready!")
     yield
     # shutdown
