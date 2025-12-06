@@ -4,7 +4,9 @@ from app.service import user_crud
 from app.model import User
 from app.model.user import RoleEnum, GenderEnum
 from app.security import hash_password
+from app.log import get_logger
 
+log = get_logger(__name__)
 
 def seed_users():
     with Session(engine) as session:

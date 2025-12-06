@@ -21,21 +21,24 @@ from fastapi.staticfiles import StaticFiles
 from app.core.config import settings
 from app.database.database import create_db_and_tables
 from app.database.init_db import init_db
+from app.log import get_logger
 
 from contextlib import asynccontextmanager
 import os
 os.makedirs("static/avatars", exist_ok=True)
 
+log = get_logger(__name__)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # startup
-    # create_db_and_tables() nên gỡ vì đã có alembic
-    # init_db() seed dữ liệu
-    print("Database ready!")
+    # create_db_and_tables() nên gỡ vì đã có alembic chỉ cần alembic upgrade head
+    if os.environ.get("UVICORN_RUN_MAIN") == "true":
+        init_db()  # seed dữ liệu
+    log.info("Database ready!")
     yield
     # shutdown
-    print("App shutdown")
+    log.info("App shutdown!")
 
 app = FastAPI(
     lifespan=lifespan,

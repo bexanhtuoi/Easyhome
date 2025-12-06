@@ -2,24 +2,26 @@ import requests
 from sqlmodel import Session
 from app.database.database import engine
 from app.model import Province, Ward
+from app.log import get_logger
 
 API_URL = "https://provinces.open-api.vn/api/v1/p/{code}?depth=3"
 
+log = get_logger(__name__)
 
 def seed_wards():
     with Session(engine) as session:
 
         provinces = session.query(Province).all()
-        print(f"Found {len(provinces)} provinces. Seeding wards...")
+        log.info(f"Found {len(provinces)} provinces. Seeding wards...")
 
         for province in provinces:
-            print(f"Fetching ward data for province {province.name} ({province.id})")
+            log.info(f"Fetching ward data for province {province.name} ({province.id})")
 
             url = API_URL.format(code=province.id)
             response = requests.get(url)
 
             if response.status_code != 200:
-                print(f"Failed to fetch wards for province {province.id}")
+                log.error(f"Failed to fetch wards for province {province.id}")
                 continue
 
             province_data = response.json()
@@ -48,4 +50,4 @@ def seed_wards():
 
         session.commit()
 
-    print("Seed wards completed!")
+    log.info("Seed wards completed!")
