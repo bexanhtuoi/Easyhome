@@ -1,7 +1,8 @@
-from app.model import Property
+from app.model import Property, Amenities, Object, NearbyPlace
 from app.service.base import CRUDRepository
 from typing import List, Optional, Union, TypeVar
 from sqlmodel import SQLModel, Session, select
+from sqlalchemy.orm import selectinload
 from pydantic import BaseModel
 from fastapi import HTTPException
 
@@ -29,7 +30,7 @@ class PropertyCrud(CRUDRepository):
         # --- Amenities ---
         if data.amenities_id:
             amenities = db.exec(
-                select(Amenity).where(Amenity.id.in_(data.amenities_id))
+                select(Amenities).where(Amenities.id.in_(data.amenities_id))
             ).all()
 
             if len(amenities) != len(data.amenities_id):
@@ -77,6 +78,24 @@ class PropertyCrud(CRUDRepository):
         self.attach_relations(db, db_obj, obj_in)
 
         return db_obj
+
+    def get_one_with_relations(self, db: Session, id: int) -> Optional[Property]:
+        stmt = select(self._model).where(self._model.id == id).options(
+            selectinload(self._model.amenities),
+            selectinload(self._model.objects),
+            selectinload(self._model.nearby_places),
+            selectinload(self._model.images),
+        )
+        return db.exec(stmt).first()
+
+    def get_many_with_relations(self, db: Session, skip: int = 0, limit: int = 100) -> List[Property]:
+        stmt = select(self._model).options(
+            selectinload(self._model.amenities),
+            selectinload(self._model.objects),
+            selectinload(self._model.nearby_places),
+            selectinload(self._model.images),
+        ).offset(skip).limit(limit)
+        return db.exec(stmt).all()
 
 
     

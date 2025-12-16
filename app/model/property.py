@@ -13,9 +13,9 @@ class Property(SQLModel, table=True):
     price: Optional[float] = None
     rooms_count: Optional[int] = None
     area: Optional[float] = None
-    province: Optional[int] = Field(default=None, foreign_key="province.id")
-    district: Optional[int] = Field(default=None, foreign_key="district.id")
-    ward: Optional[int] = Field(default=None, foreign_key="ward.id")
+    province_id: Optional[int] = Field(default=None, foreign_key="province.id")
+    district_id: Optional[int] = Field(default=None, foreign_key="district.id")
+    ward_id: Optional[int] = Field(default=None, foreign_key="ward.id")
     address: Optional[str] = None
     owner_phone: Optional[str] = None
     owner_zalo: Optional[str] = None

@@ -5,6 +5,7 @@ from app.api.routers.user import router as user_router
 from app.api.routers.province import router as province_router
 from app.api.routers.district import router as district_router
 from app.api.routers.ward import router as ward_router
+from app.api.routers.property import router as property_router
 from app.api.routers.category import router as category_router
 from app.api.routers.amenities import router as amenities_router
 from app.api.routers.object import router as object_router
@@ -21,6 +22,7 @@ __all__ = [
     "province_router",
     "district_router",
     "ward_router",
+    "property_router",
     "category_router",
     "amenities_router",
     "object_router",

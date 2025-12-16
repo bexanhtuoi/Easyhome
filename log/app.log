@@ -310,3 +310,899 @@ INFO:     Database ready! - FILE: app.main - TIME: 2025-12-06 15:19:36,103
 INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-06 15:20:09,431
 INFO:     Database ready! - FILE: app.main - TIME: 2025-12-06 15:20:10,795
 INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-06 15:28:22,549
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:08:49,043
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 20:35:38,890
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:35:41,265
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 20:36:53,479
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:36:55,449
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 20:37:26,794
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:37:28,816
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 20:37:40,758
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:37:42,717
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 20:38:05,171
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:38:07,160
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 20:38:29,630
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:38:31,635
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 20:38:45,280
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:38:47,241
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 20:39:13,895
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:39:15,803
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 20:39:35,478
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:39:37,292
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 20:40:29,880
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:42:41,885
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 20:42:45,898
+INFO:     Bắt đầu seeding data - FILE: app.database.init_db - TIME: 2025-12-16 20:45:15,758
+INFO:     Fetching province data... - FILE: app.database.seed.seed_province - TIME: 2025-12-16 20:45:16,159
+INFO:     Seed provinces completed! - FILE: app.database.seed.seed_province - TIME: 2025-12-16 20:45:16,972
+INFO:     Found 63 provinces. Seeding districts... - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:16,978
+INFO:     Fetching districts for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:16,978
+INFO:     Fetching districts for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:17,574
+INFO:     Fetching districts for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:18,204
+INFO:     Fetching districts for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:18,732
+INFO:     Fetching districts for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:19,259
+INFO:     Fetching districts for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:19,861
+INFO:     Fetching districts for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:20,462
+INFO:     Fetching districts for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:20,996
+INFO:     Fetching districts for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:21,584
+INFO:     Fetching districts for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:23,238
+INFO:     Fetching districts for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:24,817
+INFO:     Fetching districts for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:25,534
+INFO:     Fetching districts for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:26,114
+INFO:     Fetching districts for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:26,710
+INFO:     Fetching districts for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:28,316
+INFO:     Fetching districts for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:28,881
+INFO:     Fetching districts for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:29,408
+INFO:     Fetching districts for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:29,937
+INFO:     Fetching districts for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:30,492
+INFO:     Fetching districts for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:31,056
+INFO:     Fetching districts for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:31,733
+INFO:     Fetching districts for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:32,314
+INFO:     Fetching districts for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:32,858
+INFO:     Fetching districts for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:33,428
+INFO:     Fetching districts for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:34,009
+INFO:     Fetching districts for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:34,559
+INFO:     Fetching districts for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:35,387
+INFO:     Fetching districts for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:35,958
+INFO:     Fetching districts for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:36,607
+INFO:     Fetching districts for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:37,199
+INFO:     Fetching districts for province Thành phố Huế (46) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:37,744
+INFO:     Fetching districts for province Thành phố Đà Nẵng (48) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:38,307
+INFO:     Fetching districts for province Tỉnh Quảng Nam (49) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:39,130
+INFO:     Fetching districts for province Tỉnh Quảng Ngãi (51) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:39,678
+INFO:     Fetching districts for province Tỉnh Bình Định (52) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:40,218
+INFO:     Fetching districts for province Tỉnh Phú Yên (54) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:41,011
+INFO:     Fetching districts for province Tỉnh Khánh Hòa (56) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:41,549
+INFO:     Fetching districts for province Tỉnh Ninh Thuận (58) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:42,208
+INFO:     Fetching districts for province Tỉnh Bình Thuận (60) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:42,830
+INFO:     Fetching districts for province Tỉnh Kon Tum (62) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:43,380
+INFO:     Fetching districts for province Tỉnh Gia Lai (64) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:44,051
+INFO:     Fetching districts for province Tỉnh Đắk Lắk (66) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:44,679
+INFO:     Fetching districts for province Tỉnh Đắk Nông (67) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:45,234
+INFO:     Fetching districts for province Tỉnh Lâm Đồng (68) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:45,794
+INFO:     Fetching districts for province Tỉnh Bình Phước (70) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:46,361
+INFO:     Fetching districts for province Tỉnh Tây Ninh (72) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:47,001
+INFO:     Fetching districts for province Tỉnh Bình Dương (74) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:47,571
+INFO:     Fetching districts for province Tỉnh Đồng Nai (75) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:48,418
+INFO:     Fetching districts for province Tỉnh Bà Rịa - Vũng Tàu (77) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:48,982
+INFO:     Fetching districts for province Thành phố Hồ Chí Minh (79) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:49,528
+INFO:     Fetching districts for province Tỉnh Long An (80) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:50,096
+INFO:     Fetching districts for province Tỉnh Tiền Giang (82) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:50,694
+INFO:     Fetching districts for province Tỉnh Bến Tre (83) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:51,279
+INFO:     Fetching districts for province Tỉnh Trà Vinh (84) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:51,890
+INFO:     Fetching districts for province Tỉnh Vĩnh Long (86) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:52,542
+INFO:     Fetching districts for province Tỉnh Đồng Tháp (87) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:54,112
+INFO:     Fetching districts for province Tỉnh An Giang (89) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:54,699
+INFO:     Fetching districts for province Tỉnh Kiên Giang (91) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:55,310
+INFO:     Fetching districts for province Thành phố Cần Thơ (92) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:55,919
+INFO:     Fetching districts for province Tỉnh Hậu Giang (93) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:56,506
+INFO:     Fetching districts for province Tỉnh Sóc Trăng (94) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:57,079
+INFO:     Fetching districts for province Tỉnh Bạc Liêu (95) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:57,693
+INFO:     Fetching districts for province Tỉnh Cà Mau (96) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:58,312
+INFO:     Seed districts completed! - FILE: app.database.seed.seed_district - TIME: 2025-12-16 20:45:59,048
+INFO:     Found 63 provinces. Seeding wards... - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:45:59,054
+INFO:     Fetching ward data for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:45:59,055
+INFO:     Fetching ward data for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:01,489
+INFO:     Fetching ward data for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:02,406
+INFO:     Fetching ward data for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:03,240
+INFO:     Fetching ward data for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:04,003
+INFO:     Fetching ward data for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:05,382
+INFO:     Fetching ward data for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:06,751
+INFO:     Fetching ward data for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:07,793
+INFO:     Fetching ward data for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:08,539
+INFO:     Fetching ward data for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:09,544
+INFO:     Fetching ward data for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:11,563
+INFO:     Fetching ward data for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:12,381
+INFO:     Fetching ward data for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:13,255
+INFO:     Fetching ward data for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:14,145
+INFO:     Fetching ward data for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:15,098
+INFO:     Fetching ward data for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:16,035
+INFO:     Fetching ward data for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:16,953
+INFO:     Fetching ward data for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:17,985
+INFO:     Fetching ward data for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:18,785
+INFO:     Fetching ward data for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:19,767
+INFO:     Fetching ward data for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:20,666
+INFO:     Fetching ward data for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:21,678
+INFO:     Fetching ward data for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:22,651
+INFO:     Fetching ward data for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:23,419
+INFO:     Fetching ward data for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:24,252
+INFO:     Fetching ward data for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:25,043
+INFO:     Fetching ward data for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:26,599
+INFO:     Fetching ward data for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:27,876
+INFO:     Fetching ward data for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:28,955
+INFO:     Fetching ward data for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:29,844
+INFO:     Fetching ward data for province Thành phố Huế (46) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:30,681
+INFO:     Fetching ward data for province Thành phố Đà Nẵng (48) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:31,500
+INFO:     Fetching ward data for province Tỉnh Quảng Nam (49) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:32,208
+INFO:     Fetching ward data for province Tỉnh Quảng Ngãi (51) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:33,217
+INFO:     Fetching ward data for province Tỉnh Bình Định (52) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:34,103
+INFO:     Fetching ward data for province Tỉnh Phú Yên (54) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:35,217
+INFO:     Fetching ward data for province Tỉnh Khánh Hòa (56) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:36,908
+INFO:     Fetching ward data for province Tỉnh Ninh Thuận (58) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:37,699
+INFO:     Fetching ward data for province Tỉnh Bình Thuận (60) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:38,459
+INFO:     Fetching ward data for province Tỉnh Kon Tum (62) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:39,243
+INFO:     Fetching ward data for province Tỉnh Gia Lai (64) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:40,958
+INFO:     Fetching ward data for province Tỉnh Đắk Lắk (66) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:42,118
+INFO:     Fetching ward data for province Tỉnh Đắk Nông (67) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:43,209
+INFO:     Fetching ward data for province Tỉnh Lâm Đồng (68) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:43,917
+INFO:     Fetching ward data for province Tỉnh Bình Phước (70) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:44,738
+INFO:     Fetching ward data for province Tỉnh Tây Ninh (72) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:45,490
+INFO:     Fetching ward data for province Tỉnh Bình Dương (74) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:46,273
+INFO:     Fetching ward data for province Tỉnh Đồng Nai (75) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:47,057
+INFO:     Fetching ward data for province Tỉnh Bà Rịa - Vũng Tàu (77) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:47,938
+INFO:     Fetching ward data for province Thành phố Hồ Chí Minh (79) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:48,855
+INFO:     Fetching ward data for province Tỉnh Long An (80) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:50,858
+INFO:     Fetching ward data for province Tỉnh Tiền Giang (82) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:51,792
+INFO:     Fetching ward data for province Tỉnh Bến Tre (83) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:52,968
+INFO:     Fetching ward data for province Tỉnh Trà Vinh (84) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:53,993
+INFO:     Fetching ward data for province Tỉnh Vĩnh Long (86) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:54,835
+INFO:     Fetching ward data for province Tỉnh Đồng Tháp (87) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:55,619
+INFO:     Fetching ward data for province Tỉnh An Giang (89) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:56,498
+INFO:     Fetching ward data for province Tỉnh Kiên Giang (91) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:57,418
+INFO:     Fetching ward data for province Thành phố Cần Thơ (92) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:58,285
+INFO:     Fetching ward data for province Tỉnh Hậu Giang (93) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:59,062
+INFO:     Fetching ward data for province Tỉnh Sóc Trăng (94) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:46:59,769
+INFO:     Fetching ward data for province Tỉnh Bạc Liêu (95) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:47:00,548
+INFO:     Fetching ward data for province Tỉnh Cà Mau (96) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:47:01,257
+INFO:     Seed wards completed! - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 20:47:02,043
+INFO:     Seeding nearby places data... - FILE: app.database.seed.seed_nearby_places - TIME: 2025-12-16 20:47:02,046
+INFO:     Seed nearby places completed! - FILE: app.database.seed.seed_nearby_places - TIME: 2025-12-16 20:47:02,092
+INFO:     Seeding categories data... - FILE: app.database.seed.seed_categories - TIME: 2025-12-16 20:47:02,093
+INFO:     Seed categories completed! - FILE: app.database.seed.seed_categories - TIME: 2025-12-16 20:47:02,118
+INFO:     Seeding amenities data... - FILE: app.database.seed.seed_amenities - TIME: 2025-12-16 20:47:02,118
+INFO:     Seed amenities completed! - FILE: app.database.seed.seed_amenities - TIME: 2025-12-16 20:47:02,183
+INFO:     Seeding objects data... - FILE: app.database.seed.seed_objects - TIME: 2025-12-16 20:47:02,184
+INFO:     Seed objects completed! - FILE: app.database.seed.seed_objects - TIME: 2025-12-16 20:47:02,202
+INFO:     Seeding hoàn tất! - FILE: app.database.init_db - TIME: 2025-12-16 20:47:02,203
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 20:47:02,203
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 22:56:15,453
+INFO:     Bắt đầu seeding data - FILE: app.database.init_db - TIME: 2025-12-16 22:56:19,244
+INFO:     Fetching province data... - FILE: app.database.seed.seed_province - TIME: 2025-12-16 22:56:19,368
+INFO:     Seed provinces completed! - FILE: app.database.seed.seed_province - TIME: 2025-12-16 22:56:20,017
+INFO:     Found 63 provinces. Seeding districts... - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:20,023
+INFO:     Fetching districts for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:20,023
+INFO:     Fetching districts for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:20,544
+INFO:     Fetching districts for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:21,087
+INFO:     Fetching districts for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:21,677
+INFO:     Fetching districts for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:22,220
+INFO:     Fetching districts for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:22,729
+INFO:     Fetching districts for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:23,296
+INFO:     Fetching districts for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:23,802
+INFO:     Fetching districts for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:24,311
+INFO:     Fetching districts for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:24,877
+INFO:     Fetching districts for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:25,388
+INFO:     Fetching districts for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:25,889
+INFO:     Fetching districts for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:26,431
+INFO:     Fetching districts for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:26,978
+INFO:     Fetching districts for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:27,480
+INFO:     Fetching districts for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:27,986
+INFO:     Fetching districts for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:28,497
+INFO:     Fetching districts for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:28,994
+INFO:     Fetching districts for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:29,510
+INFO:     Fetching districts for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:30,004
+INFO:     Fetching districts for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:30,502
+INFO:     Fetching districts for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:31,056
+INFO:     Fetching districts for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:31,578
+INFO:     Fetching districts for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:32,107
+INFO:     Fetching districts for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:32,741
+INFO:     Fetching districts for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:33,278
+INFO:     Fetching districts for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:33,878
+INFO:     Fetching districts for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:34,408
+INFO:     Fetching districts for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:34,923
+INFO:     Fetching districts for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:35,446
+INFO:     Fetching districts for province Thành phố Huế (46) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:35,923
+INFO:     Fetching districts for province Thành phố Đà Nẵng (48) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:36,442
+INFO:     Fetching districts for province Tỉnh Quảng Nam (49) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:36,947
+INFO:     Fetching districts for province Tỉnh Quảng Ngãi (51) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:37,511
+INFO:     Fetching districts for province Tỉnh Bình Định (52) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:38,027
+INFO:     Fetching districts for province Tỉnh Phú Yên (54) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:38,510
+INFO:     Fetching districts for province Tỉnh Khánh Hòa (56) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:38,977
+INFO:     Fetching districts for province Tỉnh Ninh Thuận (58) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:39,459
+INFO:     Fetching districts for province Tỉnh Bình Thuận (60) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:39,940
+INFO:     Fetching districts for province Tỉnh Kon Tum (62) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:40,412
+INFO:     Fetching districts for province Tỉnh Gia Lai (64) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:40,886
+INFO:     Fetching districts for province Tỉnh Đắk Lắk (66) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:41,382
+INFO:     Fetching districts for province Tỉnh Đắk Nông (67) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:41,868
+INFO:     Fetching districts for province Tỉnh Lâm Đồng (68) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:42,372
+INFO:     Fetching districts for province Tỉnh Bình Phước (70) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:42,892
+INFO:     Fetching districts for province Tỉnh Tây Ninh (72) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:43,375
+INFO:     Fetching districts for province Tỉnh Bình Dương (74) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:43,844
+INFO:     Fetching districts for province Tỉnh Đồng Nai (75) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:44,323
+INFO:     Fetching districts for province Tỉnh Bà Rịa - Vũng Tàu (77) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:44,809
+INFO:     Fetching districts for province Thành phố Hồ Chí Minh (79) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:45,285
+INFO:     Fetching districts for province Tỉnh Long An (80) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:45,793
+INFO:     Fetching districts for province Tỉnh Tiền Giang (82) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:46,277
+INFO:     Fetching districts for province Tỉnh Bến Tre (83) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:46,751
+INFO:     Fetching districts for province Tỉnh Trà Vinh (84) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:47,243
+INFO:     Fetching districts for province Tỉnh Vĩnh Long (86) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:47,715
+INFO:     Fetching districts for province Tỉnh Đồng Tháp (87) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:48,184
+INFO:     Fetching districts for province Tỉnh An Giang (89) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:48,666
+INFO:     Fetching districts for province Tỉnh Kiên Giang (91) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:49,139
+INFO:     Fetching districts for province Thành phố Cần Thơ (92) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:49,616
+INFO:     Fetching districts for province Tỉnh Hậu Giang (93) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:50,092
+INFO:     Fetching districts for province Tỉnh Sóc Trăng (94) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:50,572
+INFO:     Fetching districts for province Tỉnh Bạc Liêu (95) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:51,046
+INFO:     Fetching districts for province Tỉnh Cà Mau (96) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:51,524
+INFO:     Seed districts completed! - FILE: app.database.seed.seed_district - TIME: 2025-12-16 22:56:52,001
+INFO:     Found 63 provinces. Seeding wards... - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:52,008
+INFO:     Fetching ward data for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:52,008
+INFO:     Fetching ward data for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:53,315
+INFO:     Fetching ward data for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:54,107
+INFO:     Fetching ward data for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:54,904
+INFO:     Fetching ward data for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:55,563
+INFO:     Fetching ward data for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:56,298
+INFO:     Fetching ward data for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:57,003
+INFO:     Fetching ward data for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:57,744
+INFO:     Fetching ward data for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:58,404
+INFO:     Fetching ward data for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:59,203
+INFO:     Fetching ward data for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:56:59,945
+INFO:     Fetching ward data for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:00,710
+INFO:     Fetching ward data for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:01,488
+INFO:     Fetching ward data for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:02,242
+INFO:     Fetching ward data for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:02,987
+INFO:     Fetching ward data for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:03,809
+INFO:     Fetching ward data for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:04,626
+INFO:     Fetching ward data for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:05,333
+INFO:     Fetching ward data for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:06,000
+INFO:     Fetching ward data for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:06,796
+INFO:     Fetching ward data for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:07,575
+INFO:     Fetching ward data for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:08,262
+INFO:     Fetching ward data for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:09,150
+INFO:     Fetching ward data for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:09,834
+INFO:     Fetching ward data for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:10,579
+INFO:     Fetching ward data for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:11,274
+INFO:     Fetching ward data for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:12,609
+INFO:     Fetching ward data for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:13,732
+INFO:     Fetching ward data for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:14,568
+INFO:     Fetching ward data for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:15,294
+INFO:     Fetching ward data for province Thành phố Huế (46) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:15,928
+INFO:     Fetching ward data for province Thành phố Đà Nẵng (48) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:16,674
+INFO:     Fetching ward data for province Tỉnh Quảng Nam (49) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:17,235
+INFO:     Fetching ward data for province Tỉnh Quảng Ngãi (51) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:18,074
+INFO:     Fetching ward data for province Tỉnh Bình Định (52) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:18,818
+INFO:     Fetching ward data for province Tỉnh Phú Yên (54) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:19,560
+INFO:     Fetching ward data for province Tỉnh Khánh Hòa (56) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:20,227
+INFO:     Fetching ward data for province Tỉnh Ninh Thuận (58) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:20,889
+INFO:     Fetching ward data for province Tỉnh Bình Thuận (60) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:21,495
+INFO:     Fetching ward data for province Tỉnh Kon Tum (62) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:22,152
+INFO:     Fetching ward data for province Tỉnh Gia Lai (64) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:22,775
+INFO:     Fetching ward data for province Tỉnh Đắk Lắk (66) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:23,603
+INFO:     Fetching ward data for province Tỉnh Đắk Nông (67) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:24,358
+INFO:     Fetching ward data for province Tỉnh Lâm Đồng (68) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:25,048
+INFO:     Fetching ward data for province Tỉnh Bình Phước (70) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:25,735
+INFO:     Fetching ward data for province Tỉnh Tây Ninh (72) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:26,367
+INFO:     Fetching ward data for province Tỉnh Bình Dương (74) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:26,982
+INFO:     Fetching ward data for province Tỉnh Đồng Nai (75) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:27,620
+INFO:     Fetching ward data for province Tỉnh Bà Rịa - Vũng Tàu (77) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:28,480
+INFO:     Fetching ward data for province Thành phố Hồ Chí Minh (79) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:29,127
+INFO:     Fetching ward data for province Tỉnh Long An (80) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:30,003
+INFO:     Fetching ward data for province Tỉnh Tiền Giang (82) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:30,769
+INFO:     Fetching ward data for province Tỉnh Bến Tre (83) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:31,498
+INFO:     Fetching ward data for province Tỉnh Trà Vinh (84) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:32,281
+INFO:     Fetching ward data for province Tỉnh Vĩnh Long (86) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:32,948
+INFO:     Fetching ward data for province Tỉnh Đồng Tháp (87) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:33,577
+INFO:     Fetching ward data for province Tỉnh An Giang (89) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:34,300
+INFO:     Fetching ward data for province Tỉnh Kiên Giang (91) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:35,049
+INFO:     Fetching ward data for province Thành phố Cần Thơ (92) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:35,816
+INFO:     Fetching ward data for province Tỉnh Hậu Giang (93) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:36,444
+INFO:     Fetching ward data for province Tỉnh Sóc Trăng (94) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:37,032
+INFO:     Fetching ward data for province Tỉnh Bạc Liêu (95) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:37,663
+INFO:     Fetching ward data for province Tỉnh Cà Mau (96) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:38,231
+INFO:     Seed wards completed! - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 22:57:38,837
+INFO:     Seeding nearby places data... - FILE: app.database.seed.seed_nearby_places - TIME: 2025-12-16 22:57:38,840
+INFO:     Seed nearby places completed! - FILE: app.database.seed.seed_nearby_places - TIME: 2025-12-16 22:57:38,852
+INFO:     Seeding categories data... - FILE: app.database.seed.seed_categories - TIME: 2025-12-16 22:57:38,853
+INFO:     Seed categories completed! - FILE: app.database.seed.seed_categories - TIME: 2025-12-16 22:57:38,864
+INFO:     Seeding amenities data... - FILE: app.database.seed.seed_amenities - TIME: 2025-12-16 22:57:38,864
+INFO:     Seed amenities completed! - FILE: app.database.seed.seed_amenities - TIME: 2025-12-16 22:57:38,893
+INFO:     Seeding objects data... - FILE: app.database.seed.seed_objects - TIME: 2025-12-16 22:57:38,893
+INFO:     Seed objects completed! - FILE: app.database.seed.seed_objects - TIME: 2025-12-16 22:57:38,901
+INFO:     Seeding hoàn tất! - FILE: app.database.init_db - TIME: 2025-12-16 22:57:38,902
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 22:57:38,902
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 22:57:49,295
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:03:50,430
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:03:52,400
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:05:49,700
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:05:51,618
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:11:45,675
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:11:47,684
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:13:33,809
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:13:35,993
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:14:59,933
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:15:01,895
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:15:50,778
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:15:52,700
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:16:29,768
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:17:18,266
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:28:45,512
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:28:47,660
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:31:42,614
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:31:44,631
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:32:01,161
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:32:03,122
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:32:12,549
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:32:14,418
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:34:31,984
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:54:21,013
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:55:34,467
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:55:36,511
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-16 23:56:07,819
+INFO:     Bắt đầu seeding data - FILE: app.database.init_db - TIME: 2025-12-16 23:56:27,986
+INFO:     Fetching province data... - FILE: app.database.seed.seed_province - TIME: 2025-12-16 23:56:28,493
+INFO:     Seed provinces completed! - FILE: app.database.seed.seed_province - TIME: 2025-12-16 23:56:29,212
+INFO:     Found 63 provinces. Seeding districts... - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:29,217
+INFO:     Fetching districts for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:29,217
+INFO:     Fetching districts for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:29,810
+INFO:     Fetching districts for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:30,313
+INFO:     Fetching districts for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:30,806
+INFO:     Fetching districts for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:31,306
+INFO:     Fetching districts for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:31,806
+INFO:     Fetching districts for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:32,320
+INFO:     Fetching districts for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:32,825
+INFO:     Fetching districts for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:33,352
+INFO:     Fetching districts for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:33,858
+INFO:     Fetching districts for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:34,406
+INFO:     Fetching districts for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:34,914
+INFO:     Fetching districts for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:35,403
+INFO:     Fetching districts for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:35,931
+INFO:     Fetching districts for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:36,473
+INFO:     Fetching districts for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:36,970
+INFO:     Fetching districts for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:37,493
+INFO:     Fetching districts for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:37,971
+INFO:     Fetching districts for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:38,477
+INFO:     Fetching districts for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:38,994
+INFO:     Fetching districts for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:39,500
+INFO:     Fetching districts for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:40,016
+INFO:     Fetching districts for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:40,544
+INFO:     Fetching districts for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:41,044
+INFO:     Fetching districts for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:41,530
+INFO:     Fetching districts for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:42,025
+INFO:     Fetching districts for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:42,633
+INFO:     Fetching districts for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:43,195
+INFO:     Fetching districts for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:43,703
+INFO:     Fetching districts for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:44,211
+INFO:     Fetching districts for province Thành phố Huế (46) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:44,772
+INFO:     Fetching districts for province Thành phố Đà Nẵng (48) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:45,307
+INFO:     Fetching districts for province Tỉnh Quảng Nam (49) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:45,821
+INFO:     Fetching districts for province Tỉnh Quảng Ngãi (51) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:46,403
+INFO:     Fetching districts for province Tỉnh Bình Định (52) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:47,028
+INFO:     Fetching districts for province Tỉnh Phú Yên (54) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:47,543
+INFO:     Fetching districts for province Tỉnh Khánh Hòa (56) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:48,187
+INFO:     Fetching districts for province Tỉnh Ninh Thuận (58) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:48,766
+INFO:     Fetching districts for province Tỉnh Bình Thuận (60) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:49,291
+INFO:     Fetching districts for province Tỉnh Kon Tum (62) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:49,813
+INFO:     Fetching districts for province Tỉnh Gia Lai (64) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:50,340
+INFO:     Fetching districts for province Tỉnh Đắk Lắk (66) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:50,894
+INFO:     Fetching districts for province Tỉnh Đắk Nông (67) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:51,463
+INFO:     Fetching districts for province Tỉnh Lâm Đồng (68) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:51,994
+INFO:     Fetching districts for province Tỉnh Bình Phước (70) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:52,560
+INFO:     Fetching districts for province Tỉnh Tây Ninh (72) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:53,090
+INFO:     Fetching districts for province Tỉnh Bình Dương (74) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:53,604
+INFO:     Fetching districts for province Tỉnh Đồng Nai (75) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:54,176
+INFO:     Fetching districts for province Tỉnh Bà Rịa - Vũng Tàu (77) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:54,758
+INFO:     Fetching districts for province Thành phố Hồ Chí Minh (79) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:55,359
+INFO:     Fetching districts for province Tỉnh Long An (80) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:55,955
+INFO:     Fetching districts for province Tỉnh Tiền Giang (82) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:56,553
+INFO:     Fetching districts for province Tỉnh Bến Tre (83) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:57,162
+INFO:     Fetching districts for province Tỉnh Trà Vinh (84) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:57,778
+INFO:     Fetching districts for province Tỉnh Vĩnh Long (86) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:58,348
+INFO:     Fetching districts for province Tỉnh Đồng Tháp (87) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:58,884
+INFO:     Fetching districts for province Tỉnh An Giang (89) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:56:59,474
+INFO:     Fetching districts for province Tỉnh Kiên Giang (91) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:57:00,060
+INFO:     Fetching districts for province Thành phố Cần Thơ (92) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:57:00,629
+INFO:     Fetching districts for province Tỉnh Hậu Giang (93) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:57:01,154
+INFO:     Fetching districts for province Tỉnh Sóc Trăng (94) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:57:01,747
+INFO:     Fetching districts for province Tỉnh Bạc Liêu (95) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:57:02,307
+INFO:     Fetching districts for province Tỉnh Cà Mau (96) - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:57:02,833
+INFO:     Seed districts completed! - FILE: app.database.seed.seed_district - TIME: 2025-12-16 23:57:03,377
+INFO:     Found 63 provinces. Seeding wards... - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:03,381
+INFO:     Fetching ward data for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:03,382
+INFO:     Fetching ward data for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:05,750
+INFO:     Fetching ward data for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:07,088
+INFO:     Fetching ward data for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:08,350
+INFO:     Fetching ward data for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:09,299
+INFO:     Fetching ward data for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:10,362
+INFO:     Fetching ward data for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:11,535
+INFO:     Fetching ward data for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:12,627
+INFO:     Fetching ward data for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:13,580
+INFO:     Fetching ward data for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:14,834
+INFO:     Fetching ward data for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:15,925
+INFO:     Fetching ward data for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:16,955
+INFO:     Fetching ward data for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:18,256
+INFO:     Fetching ward data for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:19,498
+INFO:     Fetching ward data for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:20,543
+INFO:     Fetching ward data for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:21,776
+INFO:     Fetching ward data for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:22,979
+INFO:     Fetching ward data for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:23,976
+INFO:     Fetching ward data for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:25,047
+INFO:     Fetching ward data for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:26,200
+INFO:     Fetching ward data for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:27,393
+INFO:     Fetching ward data for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:28,486
+INFO:     Fetching ward data for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:29,877
+INFO:     Fetching ward data for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:30,755
+INFO:     Fetching ward data for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:31,928
+INFO:     Fetching ward data for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:32,854
+INFO:     Fetching ward data for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:35,180
+INFO:     Fetching ward data for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:37,094
+INFO:     Fetching ward data for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:38,407
+INFO:     Fetching ward data for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:39,426
+INFO:     Fetching ward data for province Thành phố Huế (46) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:40,398
+INFO:     Fetching ward data for province Thành phố Đà Nẵng (48) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:41,398
+INFO:     Fetching ward data for province Tỉnh Quảng Nam (49) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:42,045
+INFO:     Fetching ward data for province Tỉnh Quảng Ngãi (51) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:43,440
+INFO:     Fetching ward data for province Tỉnh Bình Định (52) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:44,500
+INFO:     Fetching ward data for province Tỉnh Phú Yên (54) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:45,583
+INFO:     Fetching ward data for province Tỉnh Khánh Hòa (56) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:46,439
+INFO:     Fetching ward data for province Tỉnh Ninh Thuận (58) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:47,422
+INFO:     Fetching ward data for province Tỉnh Bình Thuận (60) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:48,207
+INFO:     Fetching ward data for province Tỉnh Kon Tum (62) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:49,139
+INFO:     Fetching ward data for province Tỉnh Gia Lai (64) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:50,008
+INFO:     Fetching ward data for province Tỉnh Đắk Lắk (66) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:51,368
+INFO:     Fetching ward data for province Tỉnh Đắk Nông (67) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:52,500
+INFO:     Fetching ward data for province Tỉnh Lâm Đồng (68) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:53,259
+INFO:     Fetching ward data for province Tỉnh Bình Phước (70) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:54,290
+INFO:     Fetching ward data for province Tỉnh Tây Ninh (72) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:55,147
+INFO:     Fetching ward data for province Tỉnh Bình Dương (74) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:56,035
+INFO:     Fetching ward data for province Tỉnh Đồng Nai (75) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:57,022
+INFO:     Fetching ward data for province Tỉnh Bà Rịa - Vũng Tàu (77) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:58,067
+INFO:     Fetching ward data for province Thành phố Hồ Chí Minh (79) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:57:58,941
+INFO:     Fetching ward data for province Tỉnh Long An (80) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:00,458
+INFO:     Fetching ward data for province Tỉnh Tiền Giang (82) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:01,642
+INFO:     Fetching ward data for province Tỉnh Bến Tre (83) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:02,692
+INFO:     Fetching ward data for province Tỉnh Trà Vinh (84) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:03,671
+INFO:     Fetching ward data for province Tỉnh Vĩnh Long (86) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:04,631
+INFO:     Fetching ward data for province Tỉnh Đồng Tháp (87) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:05,510
+INFO:     Fetching ward data for province Tỉnh An Giang (89) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:06,513
+INFO:     Fetching ward data for province Tỉnh Kiên Giang (91) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:07,616
+INFO:     Fetching ward data for province Thành phố Cần Thơ (92) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:08,635
+INFO:     Fetching ward data for province Tỉnh Hậu Giang (93) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:09,387
+INFO:     Fetching ward data for province Tỉnh Sóc Trăng (94) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:10,138
+INFO:     Fetching ward data for province Tỉnh Bạc Liêu (95) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:11,053
+INFO:     Fetching ward data for province Tỉnh Cà Mau (96) - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:11,811
+INFO:     Seed wards completed! - FILE: app.database.seed.seed_ward - TIME: 2025-12-16 23:58:12,750
+INFO:     Seeding nearby places data... - FILE: app.database.seed.seed_nearby_places - TIME: 2025-12-16 23:58:12,752
+INFO:     Seed nearby places completed! - FILE: app.database.seed.seed_nearby_places - TIME: 2025-12-16 23:58:12,779
+INFO:     Seeding categories data... - FILE: app.database.seed.seed_categories - TIME: 2025-12-16 23:58:12,779
+INFO:     Seed categories completed! - FILE: app.database.seed.seed_categories - TIME: 2025-12-16 23:58:12,799
+INFO:     Seeding amenities data... - FILE: app.database.seed.seed_amenities - TIME: 2025-12-16 23:58:12,799
+INFO:     Seed amenities completed! - FILE: app.database.seed.seed_amenities - TIME: 2025-12-16 23:58:12,859
+INFO:     Seeding objects data... - FILE: app.database.seed.seed_objects - TIME: 2025-12-16 23:58:12,860
+INFO:     Seed objects completed! - FILE: app.database.seed.seed_objects - TIME: 2025-12-16 23:58:12,877
+INFO:     Seeding hoàn tất! - FILE: app.database.init_db - TIME: 2025-12-16 23:58:12,878
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-16 23:58:12,878
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:10:19,879
+INFO:     Bắt đầu seeding data - FILE: app.database.init_db - TIME: 2025-12-17 00:10:48,731
+INFO:     Fetching province data... - FILE: app.database.seed.seed_province - TIME: 2025-12-17 00:10:48,847
+INFO:     Seed provinces completed! - FILE: app.database.seed.seed_province - TIME: 2025-12-17 00:10:49,429
+INFO:     Found 63 provinces. Seeding districts... - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:49,434
+INFO:     Fetching districts for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:49,435
+INFO:     Fetching districts for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:49,979
+INFO:     Fetching districts for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:50,457
+INFO:     Fetching districts for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:50,990
+INFO:     Fetching districts for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:51,508
+INFO:     Fetching districts for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:52,044
+INFO:     Fetching districts for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:52,580
+INFO:     Fetching districts for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:53,073
+INFO:     Fetching districts for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:53,558
+INFO:     Fetching districts for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:54,103
+INFO:     Fetching districts for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:54,594
+INFO:     Fetching districts for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:55,115
+INFO:     Fetching districts for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:55,593
+INFO:     Fetching districts for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:56,139
+INFO:     Fetching districts for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:56,666
+INFO:     Fetching districts for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:57,161
+INFO:     Fetching districts for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:57,754
+INFO:     Fetching districts for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:58,247
+INFO:     Fetching districts for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:58,754
+INFO:     Fetching districts for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:59,327
+INFO:     Fetching districts for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:10:59,873
+INFO:     Fetching districts for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:00,426
+INFO:     Fetching districts for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:00,972
+INFO:     Fetching districts for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:01,506
+INFO:     Fetching districts for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:02,045
+INFO:     Fetching districts for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:02,560
+INFO:     Fetching districts for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:03,134
+INFO:     Fetching districts for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:03,696
+INFO:     Fetching districts for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:04,271
+INFO:     Fetching districts for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:04,823
+INFO:     Fetching districts for province Thành phố Huế (46) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:05,363
+INFO:     Fetching districts for province Thành phố Đà Nẵng (48) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:05,858
+INFO:     Fetching districts for province Tỉnh Quảng Nam (49) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:06,387
+INFO:     Fetching districts for province Tỉnh Quảng Ngãi (51) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:06,985
+INFO:     Fetching districts for province Tỉnh Bình Định (52) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:07,704
+INFO:     Fetching districts for province Tỉnh Phú Yên (54) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:08,302
+INFO:     Fetching districts for province Tỉnh Khánh Hòa (56) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:08,919
+INFO:     Fetching districts for province Tỉnh Ninh Thuận (58) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:09,440
+INFO:     Fetching districts for province Tỉnh Bình Thuận (60) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:09,997
+INFO:     Fetching districts for province Tỉnh Kon Tum (62) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:10,597
+INFO:     Fetching districts for province Tỉnh Gia Lai (64) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:11,303
+INFO:     Fetching districts for province Tỉnh Đắk Lắk (66) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:11,973
+INFO:     Fetching districts for province Tỉnh Đắk Nông (67) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:12,588
+INFO:     Fetching districts for province Tỉnh Lâm Đồng (68) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:13,158
+INFO:     Fetching districts for province Tỉnh Bình Phước (70) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:13,805
+INFO:     Fetching districts for province Tỉnh Tây Ninh (72) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:14,422
+INFO:     Fetching districts for province Tỉnh Bình Dương (74) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:15,043
+INFO:     Fetching districts for province Tỉnh Đồng Nai (75) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:15,632
+INFO:     Fetching districts for province Tỉnh Bà Rịa - Vũng Tàu (77) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:16,209
+INFO:     Fetching districts for province Thành phố Hồ Chí Minh (79) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:16,812
+INFO:     Fetching districts for province Tỉnh Long An (80) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:17,469
+INFO:     Fetching districts for province Tỉnh Tiền Giang (82) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:18,242
+INFO:     Fetching districts for province Tỉnh Bến Tre (83) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:19,034
+INFO:     Fetching districts for province Tỉnh Trà Vinh (84) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:19,681
+INFO:     Fetching districts for province Tỉnh Vĩnh Long (86) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:20,255
+INFO:     Fetching districts for province Tỉnh Đồng Tháp (87) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:20,861
+INFO:     Fetching districts for province Tỉnh An Giang (89) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:21,406
+INFO:     Fetching districts for province Tỉnh Kiên Giang (91) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:22,034
+INFO:     Fetching districts for province Thành phố Cần Thơ (92) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:22,607
+INFO:     Fetching districts for province Tỉnh Hậu Giang (93) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:23,155
+INFO:     Fetching districts for province Tỉnh Sóc Trăng (94) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:23,687
+INFO:     Fetching districts for province Tỉnh Bạc Liêu (95) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:24,318
+INFO:     Fetching districts for province Tỉnh Cà Mau (96) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:25,007
+INFO:     Seed districts completed! - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:11:25,670
+INFO:     Found 63 provinces. Seeding wards... - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:25,676
+INFO:     Fetching ward data for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:25,677
+INFO:     Fetching ward data for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:27,066
+INFO:     Fetching ward data for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:28,018
+INFO:     Fetching ward data for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:28,862
+INFO:     Fetching ward data for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:29,596
+INFO:     Fetching ward data for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:30,409
+INFO:     Fetching ward data for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:31,171
+INFO:     Fetching ward data for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:31,895
+INFO:     Fetching ward data for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:32,590
+INFO:     Fetching ward data for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:33,583
+INFO:     Fetching ward data for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:34,463
+INFO:     Fetching ward data for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:35,258
+INFO:     Fetching ward data for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:36,071
+INFO:     Fetching ward data for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:36,954
+INFO:     Fetching ward data for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:37,854
+INFO:     Fetching ward data for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:38,787
+INFO:     Fetching ward data for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:39,668
+INFO:     Fetching ward data for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:40,422
+INFO:     Fetching ward data for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:41,194
+INFO:     Fetching ward data for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:42,102
+INFO:     Fetching ward data for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:42,925
+INFO:     Fetching ward data for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:43,698
+INFO:     Fetching ward data for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:44,617
+INFO:     Fetching ward data for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:45,364
+INFO:     Fetching ward data for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:46,274
+INFO:     Fetching ward data for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:47,016
+INFO:     Fetching ward data for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:48,429
+INFO:     Fetching ward data for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:49,732
+INFO:     Fetching ward data for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:50,637
+INFO:     Fetching ward data for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:51,388
+INFO:     Fetching ward data for province Thành phố Huế (46) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:52,151
+INFO:     Fetching ward data for province Thành phố Đà Nẵng (48) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:52,883
+INFO:     Fetching ward data for province Tỉnh Quảng Nam (49) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:53,470
+INFO:     Fetching ward data for province Tỉnh Quảng Ngãi (51) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:54,372
+INFO:     Fetching ward data for province Tỉnh Bình Định (52) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:55,232
+INFO:     Fetching ward data for province Tỉnh Phú Yên (54) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:56,145
+INFO:     Fetching ward data for province Tỉnh Khánh Hòa (56) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:56,930
+INFO:     Fetching ward data for province Tỉnh Ninh Thuận (58) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:57,667
+INFO:     Fetching ward data for province Tỉnh Bình Thuận (60) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:58,328
+INFO:     Fetching ward data for province Tỉnh Kon Tum (62) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:59,021
+INFO:     Fetching ward data for province Tỉnh Gia Lai (64) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:11:59,745
+INFO:     Fetching ward data for province Tỉnh Đắk Lắk (66) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:00,793
+INFO:     Fetching ward data for province Tỉnh Đắk Nông (67) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:01,662
+INFO:     Fetching ward data for province Tỉnh Lâm Đồng (68) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:02,303
+INFO:     Fetching ward data for province Tỉnh Bình Phước (70) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:03,081
+INFO:     Fetching ward data for province Tỉnh Tây Ninh (72) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:03,836
+INFO:     Fetching ward data for province Tỉnh Bình Dương (74) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:04,490
+INFO:     Fetching ward data for province Tỉnh Đồng Nai (75) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:05,176
+INFO:     Fetching ward data for province Tỉnh Bà Rịa - Vũng Tàu (77) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:06,052
+INFO:     Fetching ward data for province Thành phố Hồ Chí Minh (79) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:06,813
+INFO:     Fetching ward data for province Tỉnh Long An (80) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:07,749
+INFO:     Fetching ward data for province Tỉnh Tiền Giang (82) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:08,547
+INFO:     Fetching ward data for province Tỉnh Bến Tre (83) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:09,382
+INFO:     Fetching ward data for province Tỉnh Trà Vinh (84) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:10,201
+INFO:     Fetching ward data for province Tỉnh Vĩnh Long (86) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:10,917
+INFO:     Fetching ward data for province Tỉnh Đồng Tháp (87) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:11,612
+INFO:     Fetching ward data for province Tỉnh An Giang (89) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:12,400
+INFO:     Fetching ward data for province Tỉnh Kiên Giang (91) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:13,223
+INFO:     Fetching ward data for province Thành phố Cần Thơ (92) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:14,141
+INFO:     Fetching ward data for province Tỉnh Hậu Giang (93) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:14,812
+INFO:     Fetching ward data for province Tỉnh Sóc Trăng (94) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:15,447
+INFO:     Fetching ward data for province Tỉnh Bạc Liêu (95) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:16,151
+INFO:     Fetching ward data for province Tỉnh Cà Mau (96) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:16,756
+INFO:     Seed wards completed! - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:12:17,536
+INFO:     Seeding nearby places data... - FILE: app.database.seed.seed_nearby_places - TIME: 2025-12-17 00:12:17,538
+INFO:     Seed nearby places completed! - FILE: app.database.seed.seed_nearby_places - TIME: 2025-12-17 00:12:17,556
+INFO:     Seeding categories data... - FILE: app.database.seed.seed_categories - TIME: 2025-12-17 00:12:17,557
+INFO:     Seed categories completed! - FILE: app.database.seed.seed_categories - TIME: 2025-12-17 00:12:17,571
+INFO:     Seeding amenities data... - FILE: app.database.seed.seed_amenities - TIME: 2025-12-17 00:12:17,572
+INFO:     Seed amenities completed! - FILE: app.database.seed.seed_amenities - TIME: 2025-12-17 00:12:17,611
+INFO:     Seeding objects data... - FILE: app.database.seed.seed_objects - TIME: 2025-12-17 00:12:17,611
+INFO:     Seed objects completed! - FILE: app.database.seed.seed_objects - TIME: 2025-12-17 00:12:17,624
+INFO:     Seeding hoàn tất! - FILE: app.database.init_db - TIME: 2025-12-17 00:12:17,624
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:12:17,625
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:12:36,731
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:13:01,920
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:13:33,335
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:13:36,201
+INFO:     Bắt đầu seeding data - FILE: app.database.init_db - TIME: 2025-12-17 00:13:36,266
+INFO:     Fetching province data... - FILE: app.database.seed.seed_province - TIME: 2025-12-17 00:13:36,432
+INFO:     Seed provinces completed! - FILE: app.database.seed.seed_province - TIME: 2025-12-17 00:13:37,244
+INFO:     Found 63 provinces. Seeding districts... - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:37,249
+INFO:     Fetching districts for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:37,250
+INFO:     Fetching districts for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:38,050
+INFO:     Fetching districts for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:38,713
+INFO:     Fetching districts for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:39,424
+INFO:     Fetching districts for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:40,177
+INFO:     Fetching districts for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:40,856
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:13:41,136
+INFO:     Fetching districts for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:41,542
+INFO:     Fetching districts for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:42,378
+INFO:     Fetching districts for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:43,052
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:13:43,710
+INFO:     Fetching districts for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:43,743
+INFO:     Fetching districts for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:44,316
+INFO:     Fetching districts for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:44,874
+INFO:     Fetching districts for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:45,545
+INFO:     Fetching districts for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:46,183
+INFO:     Fetching districts for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:46,832
+INFO:     Fetching districts for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:47,505
+INFO:     Fetching districts for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:48,150
+INFO:     Fetching districts for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:48,794
+INFO:     Fetching districts for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:49,470
+INFO:     Fetching districts for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:50,249
+INFO:     Fetching districts for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:50,913
+INFO:     Fetching districts for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:51,584
+INFO:     Fetching districts for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:52,236
+INFO:     Fetching districts for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:52,908
+INFO:     Fetching districts for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:53,585
+INFO:     Fetching districts for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:54,227
+INFO:     Fetching districts for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:54,817
+INFO:     Fetching districts for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:55,356
+INFO:     Fetching districts for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:55,896
+INFO:     Fetching districts for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:56,426
+INFO:     Fetching districts for province Thành phố Huế (46) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:56,917
+INFO:     Fetching districts for province Thành phố Đà Nẵng (48) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:57,417
+INFO:     Fetching districts for province Tỉnh Quảng Nam (49) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:57,908
+INFO:     Fetching districts for province Tỉnh Quảng Ngãi (51) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:58,411
+INFO:     Fetching districts for province Tỉnh Bình Định (52) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:58,925
+INFO:     Fetching districts for province Tỉnh Phú Yên (54) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:59,421
+INFO:     Fetching districts for province Tỉnh Khánh Hòa (56) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:13:59,948
+INFO:     Fetching districts for province Tỉnh Ninh Thuận (58) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:00,481
+INFO:     Fetching districts for province Tỉnh Bình Thuận (60) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:00,968
+INFO:     Fetching districts for province Tỉnh Kon Tum (62) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:01,465
+INFO:     Fetching districts for province Tỉnh Gia Lai (64) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:01,962
+INFO:     Fetching districts for province Tỉnh Đắk Lắk (66) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:02,458
+INFO:     Fetching districts for province Tỉnh Đắk Nông (67) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:02,995
+INFO:     Fetching districts for province Tỉnh Lâm Đồng (68) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:03,510
+INFO:     Fetching districts for province Tỉnh Bình Phước (70) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:03,993
+INFO:     Fetching districts for province Tỉnh Tây Ninh (72) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:04,506
+INFO:     Fetching districts for province Tỉnh Bình Dương (74) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:05,001
+INFO:     Fetching districts for province Tỉnh Đồng Nai (75) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:05,501
+INFO:     Fetching districts for province Tỉnh Bà Rịa - Vũng Tàu (77) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:06,046
+INFO:     Fetching districts for province Thành phố Hồ Chí Minh (79) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:06,526
+INFO:     Fetching districts for province Tỉnh Long An (80) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:07,060
+INFO:     Fetching districts for province Tỉnh Tiền Giang (82) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:07,570
+INFO:     Fetching districts for province Tỉnh Bến Tre (83) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:08,050
+INFO:     Fetching districts for province Tỉnh Trà Vinh (84) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:08,560
+INFO:     Fetching districts for province Tỉnh Vĩnh Long (86) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:09,046
+INFO:     Fetching districts for province Tỉnh Đồng Tháp (87) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:09,544
+INFO:     Fetching districts for province Tỉnh An Giang (89) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:10,083
+INFO:     Fetching districts for province Tỉnh Kiên Giang (91) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:10,562
+INFO:     Fetching districts for province Thành phố Cần Thơ (92) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:11,062
+INFO:     Fetching districts for province Tỉnh Hậu Giang (93) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:11,613
+INFO:     Fetching districts for province Tỉnh Sóc Trăng (94) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:12,094
+INFO:     Fetching districts for province Tỉnh Bạc Liêu (95) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:12,599
+INFO:     Fetching districts for province Tỉnh Cà Mau (96) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:13,101
+INFO:     Seed districts completed! - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:14:13,590
+INFO:     Found 63 provinces. Seeding wards... - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:13,595
+INFO:     Fetching ward data for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:13,595
+INFO:     Fetching ward data for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:14,929
+INFO:     Fetching ward data for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:15,807
+INFO:     Fetching ward data for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:16,588
+INFO:     Fetching ward data for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:17,336
+INFO:     Fetching ward data for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:18,037
+INFO:     Fetching ward data for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:18,841
+INFO:     Fetching ward data for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:19,585
+INFO:     Fetching ward data for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:20,269
+INFO:     Fetching ward data for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:21,113
+INFO:     Fetching ward data for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:21,895
+INFO:     Fetching ward data for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:22,641
+INFO:     Fetching ward data for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:23,420
+INFO:     Fetching ward data for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:24,218
+INFO:     Fetching ward data for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:25,068
+INFO:     Fetching ward data for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:25,993
+INFO:     Fetching ward data for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:26,835
+INFO:     Fetching ward data for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:27,622
+INFO:     Fetching ward data for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:28,370
+INFO:     Fetching ward data for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:29,305
+INFO:     Fetching ward data for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:30,149
+INFO:     Fetching ward data for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:30,869
+INFO:     Fetching ward data for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:31,774
+INFO:     Fetching ward data for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:32,430
+INFO:     Fetching ward data for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:33,214
+INFO:     Fetching ward data for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:33,977
+INFO:     Fetching ward data for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:35,368
+INFO:     Fetching ward data for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:36,785
+INFO:     Fetching ward data for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:37,772
+INFO:     Fetching ward data for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:38,730
+INFO:     Fetching ward data for province Thành phố Huế (46) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:39,450
+INFO:     Fetching ward data for province Thành phố Đà Nẵng (48) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:40,287
+INFO:     Fetching ward data for province Tỉnh Quảng Nam (49) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:40,886
+INFO:     Fetching ward data for province Tỉnh Quảng Ngãi (51) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:41,784
+INFO:     Fetching ward data for province Tỉnh Bình Định (52) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:42,632
+INFO:     Fetching ward data for province Tỉnh Phú Yên (54) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:43,397
+INFO:     Fetching ward data for province Tỉnh Khánh Hòa (56) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:44,107
+INFO:     Fetching ward data for province Tỉnh Ninh Thuận (58) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:44,814
+INFO:     Fetching ward data for province Tỉnh Bình Thuận (60) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:45,479
+INFO:     Fetching ward data for province Tỉnh Kon Tum (62) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:46,218
+INFO:     Fetching ward data for province Tỉnh Gia Lai (64) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:47,026
+INFO:     Fetching ward data for province Tỉnh Đắk Lắk (66) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:48,086
+INFO:     Fetching ward data for province Tỉnh Đắk Nông (67) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:49,072
+INFO:     Fetching ward data for province Tỉnh Lâm Đồng (68) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:49,761
+INFO:     Fetching ward data for province Tỉnh Bình Phước (70) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:50,575
+INFO:     Fetching ward data for province Tỉnh Tây Ninh (72) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:51,242
+INFO:     Fetching ward data for province Tỉnh Bình Dương (74) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:51,874
+INFO:     Fetching ward data for province Tỉnh Đồng Nai (75) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:52,557
+INFO:     Fetching ward data for province Tỉnh Bà Rịa - Vũng Tàu (77) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:53,319
+INFO:     Fetching ward data for province Thành phố Hồ Chí Minh (79) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:54,011
+INFO:     Fetching ward data for province Tỉnh Long An (80) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:54,967
+INFO:     Fetching ward data for province Tỉnh Tiền Giang (82) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:55,779
+INFO:     Fetching ward data for province Tỉnh Bến Tre (83) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:56,584
+INFO:     Fetching ward data for province Tỉnh Trà Vinh (84) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:57,381
+INFO:     Fetching ward data for province Tỉnh Vĩnh Long (86) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:58,076
+INFO:     Fetching ward data for province Tỉnh Đồng Tháp (87) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:58,731
+INFO:     Fetching ward data for province Tỉnh An Giang (89) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:14:59,450
+INFO:     Fetching ward data for province Tỉnh Kiên Giang (91) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:00,293
+INFO:     Fetching ward data for province Thành phố Cần Thơ (92) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:01,106
+INFO:     Fetching ward data for province Tỉnh Hậu Giang (93) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:01,814
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:15:02,223
+INFO:     Fetching ward data for province Tỉnh Sóc Trăng (94) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:02,691
+INFO:     Fetching ward data for province Tỉnh Bạc Liêu (95) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:03,614
+INFO:     Fetching ward data for province Tỉnh Cà Mau (96) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:04,427
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:15:05,068
+INFO:     Seed wards completed! - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:05,361
+INFO:     Seeding nearby places data... - FILE: app.database.seed.seed_nearby_places - TIME: 2025-12-17 00:15:05,365
+INFO:     Seed nearby places completed! - FILE: app.database.seed.seed_nearby_places - TIME: 2025-12-17 00:15:05,457
+INFO:     Seeding categories data... - FILE: app.database.seed.seed_categories - TIME: 2025-12-17 00:15:05,457
+INFO:     Seed categories completed! - FILE: app.database.seed.seed_categories - TIME: 2025-12-17 00:15:05,486
+INFO:     Seeding amenities data... - FILE: app.database.seed.seed_amenities - TIME: 2025-12-17 00:15:05,486
+INFO:     Seed amenities completed! - FILE: app.database.seed.seed_amenities - TIME: 2025-12-17 00:15:05,526
+INFO:     Seeding objects data... - FILE: app.database.seed.seed_objects - TIME: 2025-12-17 00:15:05,527
+INFO:     Seed objects completed! - FILE: app.database.seed.seed_objects - TIME: 2025-12-17 00:15:05,539
+INFO:     Seeding hoàn tất! - FILE: app.database.init_db - TIME: 2025-12-17 00:15:05,539
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:15:05,540
+INFO:     Bắt đầu seeding data - FILE: app.database.init_db - TIME: 2025-12-17 00:15:07,829
+INFO:     Fetching province data... - FILE: app.database.seed.seed_province - TIME: 2025-12-17 00:15:07,958
+INFO:     Seed provinces completed! - FILE: app.database.seed.seed_province - TIME: 2025-12-17 00:15:08,679
+INFO:     Found 63 provinces. Seeding districts... - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:08,685
+INFO:     Fetching districts for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:08,686
+INFO:     Fetching districts for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:09,318
+INFO:     Fetching districts for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:09,924
+INFO:     Fetching districts for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:10,533
+INFO:     Fetching districts for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:11,096
+INFO:     Fetching districts for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:11,679
+INFO:     Fetching districts for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:12,233
+INFO:     Fetching districts for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:12,817
+INFO:     Fetching districts for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:13,401
+INFO:     Fetching districts for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:14,274
+INFO:     Fetching districts for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:15,063
+INFO:     Fetching districts for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:15,693
+INFO:     Fetching districts for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:16,250
+INFO:     Fetching districts for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:16,985
+INFO:     Fetching districts for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:17,607
+INFO:     Fetching districts for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:18,315
+INFO:     Fetching districts for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:18,983
+INFO:     Fetching districts for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:19,548
+INFO:     Fetching districts for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:20,136
+INFO:     Fetching districts for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:20,729
+INFO:     Fetching districts for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:21,285
+INFO:     Fetching districts for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:21,897
+INFO:     Fetching districts for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:22,523
+INFO:     Fetching districts for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:23,078
+INFO:     Fetching districts for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:23,715
+INFO:     Fetching districts for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:24,286
+INFO:     Fetching districts for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:25,090
+INFO:     Fetching districts for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:25,858
+INFO:     Fetching districts for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:26,627
+INFO:     Fetching districts for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:27,296
+INFO:     Fetching districts for province Thành phố Huế (46) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:28,077
+INFO:     Fetching districts for province Thành phố Đà Nẵng (48) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:29,043
+INFO:     Fetching districts for province Tỉnh Quảng Nam (49) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:29,842
+INFO:     Fetching districts for province Tỉnh Quảng Ngãi (51) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:30,637
+INFO:     Fetching districts for province Tỉnh Bình Định (52) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:31,246
+INFO:     Fetching districts for province Tỉnh Phú Yên (54) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:31,833
+INFO:     Fetching districts for province Tỉnh Khánh Hòa (56) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:32,403
+INFO:     Fetching districts for province Tỉnh Ninh Thuận (58) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:32,995
+INFO:     Fetching districts for province Tỉnh Bình Thuận (60) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:33,579
+INFO:     Fetching districts for province Tỉnh Kon Tum (62) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:34,165
+INFO:     Fetching districts for province Tỉnh Gia Lai (64) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:34,868
+INFO:     Fetching districts for province Tỉnh Đắk Lắk (66) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:35,551
+INFO:     Fetching districts for province Tỉnh Đắk Nông (67) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:36,221
+INFO:     Fetching districts for province Tỉnh Lâm Đồng (68) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:36,878
+INFO:     Fetching districts for province Tỉnh Bình Phước (70) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:37,533
+INFO:     Fetching districts for province Tỉnh Tây Ninh (72) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:38,165
+INFO:     Fetching districts for province Tỉnh Bình Dương (74) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:38,802
+INFO:     Fetching districts for province Tỉnh Đồng Nai (75) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:39,499
+INFO:     Fetching districts for province Tỉnh Bà Rịa - Vũng Tàu (77) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:40,103
+INFO:     Fetching districts for province Thành phố Hồ Chí Minh (79) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:40,735
+INFO:     Fetching districts for province Tỉnh Long An (80) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:41,376
+INFO:     Fetching districts for province Tỉnh Tiền Giang (82) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:42,044
+INFO:     Fetching districts for province Tỉnh Bến Tre (83) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:42,646
+INFO:     Fetching districts for province Tỉnh Trà Vinh (84) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:43,256
+INFO:     Fetching districts for province Tỉnh Vĩnh Long (86) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:43,895
+INFO:     Fetching districts for province Tỉnh Đồng Tháp (87) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:44,536
+INFO:     Fetching districts for province Tỉnh An Giang (89) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:45,180
+INFO:     Fetching districts for province Tỉnh Kiên Giang (91) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:45,815
+INFO:     Fetching districts for province Thành phố Cần Thơ (92) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:46,429
+INFO:     Fetching districts for province Tỉnh Hậu Giang (93) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:47,066
+INFO:     Fetching districts for province Tỉnh Sóc Trăng (94) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:47,649
+INFO:     Fetching districts for province Tỉnh Bạc Liêu (95) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:48,251
+INFO:     Fetching districts for province Tỉnh Cà Mau (96) - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:48,862
+INFO:     Seed districts completed! - FILE: app.database.seed.seed_district - TIME: 2025-12-17 00:15:49,438
+INFO:     Found 63 provinces. Seeding wards... - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:49,444
+INFO:     Fetching ward data for province Thành phố Hà Nội (1) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:49,444
+INFO:     Fetching ward data for province Tỉnh Hà Giang (2) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:51,042
+INFO:     Fetching ward data for province Tỉnh Cao Bằng (4) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:51,964
+INFO:     Fetching ward data for province Tỉnh Bắc Kạn (6) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:52,898
+INFO:     Fetching ward data for province Tỉnh Tuyên Quang (8) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:53,768
+INFO:     Fetching ward data for province Tỉnh Lào Cai (10) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:54,600
+INFO:     Fetching ward data for province Tỉnh Điện Biên (11) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:55,479
+INFO:     Fetching ward data for province Tỉnh Lai Châu (12) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:56,300
+INFO:     Fetching ward data for province Tỉnh Sơn La (14) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:57,062
+INFO:     Fetching ward data for province Tỉnh Yên Bái (15) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:58,066
+INFO:     Fetching ward data for province Tỉnh Hoà Bình (17) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:58,959
+INFO:     Fetching ward data for province Tỉnh Thái Nguyên (19) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:15:59,813
+INFO:     Fetching ward data for province Tỉnh Lạng Sơn (20) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:00,841
+INFO:     Fetching ward data for province Tỉnh Quảng Ninh (22) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:01,787
+INFO:     Fetching ward data for province Tỉnh Bắc Giang (24) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:02,830
+INFO:     Fetching ward data for province Tỉnh Phú Thọ (25) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:03,779
+INFO:     Fetching ward data for province Tỉnh Vĩnh Phúc (26) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:04,736
+INFO:     Fetching ward data for province Tỉnh Bắc Ninh (27) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:05,539
+INFO:     Fetching ward data for province Tỉnh Hải Dương (30) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:06,386
+INFO:     Fetching ward data for province Thành phố Hải Phòng (31) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:07,448
+INFO:     Fetching ward data for province Tỉnh Hưng Yên (33) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:08,460
+INFO:     Fetching ward data for province Tỉnh Thái Bình (34) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:09,334
+INFO:     Fetching ward data for province Tỉnh Hà Nam (35) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:10,418
+INFO:     Fetching ward data for province Tỉnh Nam Định (36) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:11,273
+INFO:     Fetching ward data for province Tỉnh Ninh Bình (37) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:12,268
+INFO:     Fetching ward data for province Tỉnh Thanh Hóa (38) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:13,082
+INFO:     Fetching ward data for province Tỉnh Nghệ An (40) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:14,745
+INFO:     Fetching ward data for province Tỉnh Hà Tĩnh (42) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:16,081
+INFO:     Fetching ward data for province Tỉnh Quảng Bình (44) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:17,014
+INFO:     Fetching ward data for province Tỉnh Quảng Trị (45) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:18,046
+INFO:     Fetching ward data for province Thành phố Huế (46) - FILE: app.database.seed.seed_ward - TIME: 2025-12-17 00:16:18,949
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:16:29,829
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:18:08,432
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:18:10,454
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:18:37,078
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:18:39,133
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:19:12,856
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:19:14,849
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:19:22,690
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:19:24,594
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:20:04,369
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:20:06,420
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:20:08,341
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:21:13,942
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:21:29,349
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:24:51,185
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:24:53,167
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:26:01,271
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:26:03,303
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:26:36,021
+INFO:     Database ready! - FILE: app.main - TIME: 2025-12-17 00:26:37,965
+INFO:     App shutdown! - FILE: app.main - TIME: 2025-12-17 00:26:57,716

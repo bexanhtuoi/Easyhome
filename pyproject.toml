@@ -51,7 +51,8 @@ dependencies = [
     "typing-inspection (==0.4.2)",
     "typing-extensions (==4.15.0)",
     "urllib3 (==2.5.0)",
-    "uvicorn (==0.38.0)"
+    "uvicorn (==0.38.0)",
+    "colorlog (>=6.10.1,<7.0.0)"
 ]
 
 

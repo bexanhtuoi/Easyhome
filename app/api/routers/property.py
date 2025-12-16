@@ -4,7 +4,8 @@ from app.database.database import get_session
 from app.service.property import property_crud
 from app.schemas.property import (
     PropertyCreateSchema,
-    PropertyUpdateSchema
+    PropertyUpdateSchema,
+    PropertyResponseSchema,
 )
 from app.model import Property
 from app.api.dependencies import get_token, get_pagination_params
@@ -13,24 +14,24 @@ from typing import List
 router = APIRouter()
 
 
-@router.get("/properties/{property_id}", response_model=Property, status_code=status.HTTP_200_OK)
+@router.get("/properties/{property_id}", response_model=PropertyResponseSchema, status_code=status.HTTP_200_OK)
 def get_property(
     property_id: int,
     db: Session = Depends(get_session)
 ):
-    db_obj = property_crud.get_one(Property, id=property_id)
+    db_obj = property_crud.get_one_with_relations(db, id=property_id)
     if not db_obj:
         raise HTTPException(status_code=404, detail="Property not found")
     return db_obj
 
 
-@router.get("/properties/", response_model=List[Property], status_code=status.HTTP_200_OK)
+@router.get("/properties/", response_model=List[PropertyResponseSchema], status_code=status.HTTP_200_OK)
 def get_properties(
     db: Session = Depends(get_session),
     pagination: tuple[int, int] = Depends(get_pagination_params)
 ):
     skip, limit = pagination
-    properties = property_crud.get_many(db, skip=skip, limit=limit)
+    properties = property_crud.get_many_with_relations(db, skip=skip, limit=limit)
     return properties
 
 
@@ -74,7 +75,7 @@ def delete_property(
     db: Session = Depends(get_session),
     access_token: str = Depends(get_token)
 ):
-    db_obj = property_crud.get_one(Property, id=property_id)
+    db_obj = property_crud.get_one(db, id=property_id)
     if not db_obj:
         raise HTTPException(status_code=404, detail="Property not found")
     

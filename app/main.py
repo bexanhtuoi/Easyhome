@@ -8,6 +8,7 @@ from app.api import (
     province_router,
     district_router,
     ward_router,
+    property_router,
     category_router,
     amenities_router,
     object_router,
@@ -33,7 +34,7 @@ log = get_logger(__name__)
 async def lifespan(app: FastAPI):
     # startup
     # create_db_and_tables() nên gỡ vì đã có alembic chỉ cần alembic upgrade head
-    if os.environ.get("UVICORN_RUN_MAIN") == "true":
+    if os.environ.get("RUN_MAIN") == "true":
         init_db()  # seed dữ liệu
     log.info("Database ready!")
     yield
@@ -68,6 +69,7 @@ app.include_router(user_router, prefix="/api/v1/users", tags=["users🙍"])
 app.include_router(province_router, prefix="/api/v1/provinces", tags=["provinces🗾"])
 app.include_router(district_router, prefix="/api/v1/districts", tags=["districts🌁"])
 app.include_router(ward_router, prefix="/api/v1/wards", tags=["wards🛣️"])
+app.include_router(property_router, prefix="/api/v1/properties", tags=["properties🏠"])
 app.include_router(category_router, prefix="/api/v1/categories", tags=["categories🏷️"])
 app.include_router(amenities_router, prefix="/api/v1/amenities", tags=["amenities🛏️"])
 app.include_router(object_router, prefix="/api/v1/objects", tags=["objects📦"])
